@@ -1,5 +1,5 @@
 FROM openjdk:20
-RUN  mkdir /app
+RUN  mkdir /app 
 COPY . /app
 WORKDIR /app
-CMD java Main
+CMD java -jar Game.jar

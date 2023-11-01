@@ -7,7 +7,7 @@ import Player.PlayerRandobotplus;
 import Player.PlayerSmartcat;
 
 public class Game {
-	private static final int FIGHTS_PER_GAME = 100;
+	private static final int FIGHTS_PER_GAME = 10;
 	private static final boolean FIGHTS_DETAILED = false;
 	String[] players = { "PlayerDante","PlayerDescartes" };
 	public void run() {
