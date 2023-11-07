@@ -1,4 +1,4 @@
-FROM openjdk:20
+FROM openjdk:22-slim
 RUN  mkdir /app 
 COPY . /app
 WORKDIR /app
